@@ -3,6 +3,8 @@ using namespace std;
 
 int volume(int height, int width, int length);
 
+int volume(int height, int width, int length);
+
 int main() {
     int box1Height, box1Width, box1Length;
     int box2Height, box2Width, box2Length;
@@ -30,4 +32,7 @@ int main() {
     return 0;
 }
 
-// Implement the Volume() function here
+int volume(int height, int width, int length)
+{
+  return height * width * length;
+}
